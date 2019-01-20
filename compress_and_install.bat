@@ -1,5 +1,7 @@
 @echo off
 
+SET VS_VERSION=2017
+
 SET pwd=%~dp0
 SET libDestination=%pwd%CUDA_10.0_Library_example.zip
 SET appDestination=%pwd%CUDA_10.0_Application_example.zip
