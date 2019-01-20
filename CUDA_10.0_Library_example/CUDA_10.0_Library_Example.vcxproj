@@ -108,6 +108,18 @@
       <GenerateRelocatableDeviceCode>true</GenerateRelocatableDeviceCode>
       <CodeGeneration>compute_61,sm_61;</CodeGeneration>
     </CudaCompile>
+    <PostBuildEvent>
+      <Command>copy /Y $(ProjectDir)example.cuh $(SolutionDir)build\include\</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Copy header files of library to the solution-wide include directory...</Message>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>if not exist "$(SolutionDir)build\include\" mkdir "$(SolutionDir)build\include\"</Command>
+    </PreBuildEvent>
+    <PreBuildEvent>
+      <Message>Create a solution-wide include directory if it does not exist</Message>
+    </PreBuildEvent>
     <CudaLink>
       <PerformDeviceLink>false</PerformDeviceLink>
     </CudaLink>
