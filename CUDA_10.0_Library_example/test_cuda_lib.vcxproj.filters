@@ -13,15 +13,15 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{ddadb236-c8e4-40ab-bcea-af7015f16bad}</UniqueIdentifier>
+      <UniqueIdentifier>{$guid1$}</UniqueIdentifier>
       <Extensions>cu;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{c2d9403c-54bf-476e-9390-3ae5997e4262}</UniqueIdentifier>
+      <UniqueIdentifier>{$guid1$}</UniqueIdentifier>
       <Extensions>cuh;h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{1bea4aa1-0c2d-4494-af95-b9142e8da757}</UniqueIdentifier>
+      <UniqueIdentifier>{$guid1$}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
